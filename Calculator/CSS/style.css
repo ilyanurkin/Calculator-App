@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+
+html {
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0 auto;
+    width: 500px;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url(../iphone_vector.png);
+    background-size: contain;
+    
+    
+  }
+.calculator-wrapper{
+  padding-left: 25px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 340px;
+  height: 95vh;
+
+  
+}
+.button{
+  font-size: 28px;
+  margin-left: 5px;
+  border: none;
+  color: #fff;
+  width: 70px;
+  margin-bottom: 10px;
+  height: 70px;
+  border-radius: 40px;
+  background-color: aquamarine;
+  border-color: aquamarine;
+}
+.button:hover{
+  cursor: pointer;
+}
+.calculator-monitor{
+  padding: 5px;
+  max-width: 280px;
+  padding-left: auto;
+  overflow: hidden;
+  margin-top: 180px;
+  margin-right: 10px;
+  font-size: 48px;
+  margin-bottom: 10px;
+  padding: 10px auto;
+  color: aquamarine;
+}
+.calculator{
+  margin:0 auto;
+}
